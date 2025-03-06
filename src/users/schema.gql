@@ -1,6 +1,10 @@
 
-
 type User{
     id: ID!
     username: 
+}
+
+
+type Query {
+    getUser: User
 }
